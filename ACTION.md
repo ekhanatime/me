@@ -19,11 +19,13 @@ Players (Me#X) form branching connections through acts of help → Visualized as
 2. [ ] Network value algorithms
 3. [ ] Exponential growth incentives
 
-### Current Phase: MVP Development
-- [X] Implement core user profile
-- [X] Create skill database structure
-- [ ] Develop help request system
-- [ ] Build interactive map prototype
+### Current Phase: Auth Implementation
+- [X] Add user model
+- [X] Install auth dependencies
+- [X] Add password hashing
+- [ ] Implement login endpoint
+- [X] Create login UI
+- [ ] Add email validation
 
 ## Decision Log
 

@@ -37,6 +37,11 @@ We want to create a global, web-based community where players earn a unique [Me#
 | Development | SQLite | Rapid prototyping with file-based storage |
 | Production  | PostgreSQL + PostGIS | Scalable spatial queries |
 
+## Security Features
+- Passwords stored as hashes
+- Secure session management
+- CSRF protection (planned)
+
 [View full implementation roadmap](#implementation-roadmap)
 
 ## Get Involved

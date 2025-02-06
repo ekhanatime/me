@@ -14,7 +14,24 @@
 - Automated server restart functionality
 - Frontend UI enhancements
 
+## [v0.2.1] - 2025-02-06
+### Added
+- User authentication system
+- Password security features
+- API endpoints for login/registration
+
+## [v0.2.2] - 2025-02-06
+### Added
+- Password hashing implementation
+- User registration endpoint
+- Frontend registration form
+
+## [v0.2.3] - 2025-02-06
+### Added
+- Frontend login form
+- Login handler function
+- Form styling
+
 ## [Unreleased]
 ### Planned
-- User registration endpoint
 - Map visualization prototype

@@ -36,3 +36,24 @@ function startHelping() {
   // TODO: Implement help flow
   alert('Redirecting to help interface...');
 }
+
+async function handleLogin() {
+  const email = document.getElementById('login-email').value;
+  const password = document.getElementById('login-password').value;
+  
+  try {
+    const response = await fetch('/api/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password })
+    });
+    
+    if (response.ok) {
+      window.location.href = '/profile';
+    } else {
+      alert('Invalid credentials');
+    }
+  } catch (error) {
+    alert('Login failed');
+  }
+}

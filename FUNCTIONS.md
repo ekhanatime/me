@@ -8,6 +8,12 @@ flowchart TD
   C --> D[Skill Verification]
 ```
 
+### Registration Flow
+1. Frontend collects email/password
+2. POST to `/api/register`
+3. Server hashes password
+4. Stores user in database
+
 ## Help Interactions
 1. **Request Help**
    - Tag skills needed
@@ -23,6 +29,12 @@ flowchart TD
   - Email/password or OAuth login
   - Merge temporary ID with permanent account
 - **Returning Users:** Restore session from cookie
+
+## Authentication
+- Secure user registration
+- Password hashing
+- Session management
+- OAuth integration (future)
 
 ## Game Systems
 ```mermaid
